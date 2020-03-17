@@ -1,0 +1,126 @@
+.press__section {
+  padding-top:4.3125rem;
+  padding-bottom:4.3125rem;
+  .content h2 {
+    font-weight: 400;
+  }
+}
+
+
+
+
+.press__columns {
+  margin-top:1rem;
+}
+
+.press__items {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  justify-content: center;
+  .column {
+    text-align:center;
+  }
+  a {
+    img {
+      transition:0.2s all ease-in 0.2s;
+      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    }
+  &:hover {
+    img {
+      transition:0.2s all ease-in 0.2s;
+      filter: none;
+      -webkit-filter: grayscale(0%);
+    }
+  }
+  }
+
+}
+
+.press__inner {
+  padding:25px;
+  min-height:219px;
+  cursor: pointer;
+  position: relative;
+  background-color:#fff;
+  border-radius:12px;
+
+  .press__hover {
+    opacity:0;
+    display:none;
+  }
+  &:hover {
+    .press__hover {
+      opacity:1;
+      display:block;
+      position:absolute;
+      top:0;
+      left:0;
+      background-color:#fff;
+      color:$main-color;
+      height: 100%;
+      width: 100%;
+      border-radius:12px;
+      p {
+        margin: 1rem;
+        font-size: 1rem;
+        color: #69C0BA;
+      }
+      a {
+        color: #69C0BA;
+      }
+  }}
+}
+
+.press__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  padding:1rem;
+  h4 {
+    font-size: 1.375rem;
+    color: $text-color;
+  }
+  p {
+    font-size:1.125rem;
+    color: $text-color;
+  }
+  span {
+    font-size:1rem;
+    color:$text-color;
+  }
+
+
+}
+
+
+
+
+.press__col {
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .press-item-6 {
+    margin-left:3rem;
+  }
+
+  .press__columns {
+    margin-left:5%;
+    margin-right:5%;
+  }
+
+  .press__inner {
+    margin-left:45px;
+    margin-right:45px;
+  }
+
+
+
+}

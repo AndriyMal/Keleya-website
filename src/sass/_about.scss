@@ -1,0 +1,72 @@
+.team__name {
+  text-align: center;
+  font-size:1.125rem;
+  margin-top:1.125rem;
+  margin-bottom:0.4rem;
+}
+.team__position {
+  text-align: center;
+}
+.team__image {
+  margin-top:1.6rem;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 167px;
+  img, source, picture {margin:auto;width:167px;}
+}
+
+
+
+.cofounders__name {
+  font-size:1.125rem;
+  margin-bottom:0.4rem;
+  font-weight:500;
+}
+.cofounders__position {
+  margin-bottom:0.7rem;
+  font-weight:300;
+}
+
+.cofounder__inner__right {
+  padding-left:2.5rem;
+}
+.cofounder__inner__left {
+  padding-right:2.5rem;
+}
+
+.cofounders {
+  margin:auto;
+  max-width:944px;
+  padding-top:3rem;
+  padding-bottom:3rem;
+  img {
+    border-radius: 100%;
+  }
+}
+.team {
+  margin:auto;
+  max-width:944px;
+}
+
+@media screen and (max-width: 768px) {
+  .cofounder__inner__right, .cofounder__inner__left {
+    text-align:center;
+    padding-left: 0;
+    padding-right:0;
+  }
+  .cofounders {
+    display:flex;
+    flex-flow:column nowrap;
+    img {
+      margin: auto;
+      display: block;
+    }
+    .is-3 {
+      order:0;
+    }
+    .is-9 {
+      order:1;
+    }
+  }
+}

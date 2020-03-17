@@ -1,0 +1,279 @@
+.skip-btn {
+  border-radius: 10px;
+  background-color: #69c0ba;
+  padding: 7px 30px 7px 19px;
+  display: block;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  position: absolute;
+  top: 21px;
+  right: 14px;
+}
+
+.skip-btn:after {
+  content: url('../images/chevron.svg');
+  right: 13px;
+  position: absolute;
+  top: 9px;
+}
+
+.set-plan-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 27px;
+}
+
+.set-plan-wrapper .plan-item {
+  position: relative;
+  border-radius: 10px;
+  border: solid 2px #87dfd7;
+}
+
+.set-plan-wrapper .plan-item .sale {
+  background-color: #fc188e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: white;
+  position: absolute;
+  right: -10px;
+  top: -20px;
+}
+
+.set-plan-wrapper .plan-item.main .sale {
+  width: 55px;
+  height: 55px;
+  font-size: 20px;
+}
+
+.set-plan-wrapper .plan-item.second .sale {
+  width: 38px;
+  height: 38px;
+  font-size: 14px;
+}
+
+.set-plan-wrapper .plan-item.second {
+  width: 141px;
+  background-color: #ffffff;
+  padding: 13px 10px;
+}
+
+.set-plan-wrapper .plan-item.main {
+  width: 176px;
+  height: 307px;
+  border-radius: 10px;
+  border: solid 2px #87dfd7;
+  background-color: #c9f6f1;
+  margin: 0 25px;
+  padding: 15px 13px;
+}
+
+.set-plan-wrapper .plan-item h3 {
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+.set-plan-wrapper .plan-item.second h3 {
+  font-size: 16px;
+}
+
+.set-plan-wrapper .plan-item.main h3 {
+  font-size: 18px;
+}
+
+.set-plan-wrapper .plan-item .price {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.17px;
+  text-align: center;
+  color: #4a4a4a;
+  padding-top: 10px;
+}
+
+.set-plan-wrapper .plan-item.second .price {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 19px;
+  border-bottom: solid 1px #67e2d7;
+  margin: 0 17px;
+}
+
+.set-plan-wrapper .plan-item .price.discount {
+  padding-bottom: 0px;
+  border-bottom: solid 1px #67e2d7;
+  margin: 0 32px;
+  font-size: 22px;
+}
+
+.set-plan-wrapper .plan-item .price.discount .old {
+  display: block;
+  padding: 5px 0;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.05px;
+  text-align: center;
+  color: #69c0ba;
+  text-decoration: line-through;
+}
+
+.set-plan-wrapper .plan-item.main .price.discount {
+  font-size: 26px;
+}
+
+.set-plan-wrapper .plan-item.main .price.discount .old {
+  font-size: 14px;
+}
+
+.set-plan-wrapper .plan-item.second .desc {
+  width: 117px;
+}
+
+.set-plan-wrapper .plan-item .desc {
+  font-family: MuseoSansRounded300;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #868686;
+  padding: 15px 2px 0 2px;
+}
+
+.set-plan-wrapper .plan-item ul.desc {
+  list-style: none;
+}
+
+.set-plan-wrapper .plan-item ul.desc li {
+  width: 134px;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding: 5px 0px 5px 15px;
+  position: relative;
+}
+
+.set-plan-wrapper .plan-item ul.desc li:before {
+  background-image: url(../images/group-copy-4@3x.png);
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: -5px;
+  top: 5px;
+  background-size: cover;
+}
+
+.set-plan-wrapper .plan-item .btn {
+  border-radius: 10px;
+  background-color: #69c0ba;
+  padding: 7px 19px;
+  display: block;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.set-plan-wrapper .plan-item.second .btn {
+  margin-top: 49px;
+  font-size: 12px;
+}
+
+.set-plan-wrapper .plan-item.main .btn {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+
+/*
+bottom part
+*/
+.set-plan .capture {
+  width: 213px;
+  height: 14px;
+  font-family: MuseoSansRounded300;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: auto;
+  padding: 10px 0;
+  color: #69c0ba;
+}
+
+.set-plan .capture-spec {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding-top: 25px;
+}
+
+.set-plan .capture-spec img {
+  padding: 0 10px;
+  width: 46px;
+  height: 35px;
+}
+
+.set-plan .capture-spec a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: inherit;
+  padding-right: 5px;
+  display: contents;
+}
+
+.set-plan .capture-bottom {
+  padding-top: 40px;
+  margin: auto;
+  font-family: MuseoSansRounded;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.set-plan .capture-bottom a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: inherit;
+}
